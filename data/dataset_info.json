@@ -1,9 +1,6 @@
 {
-  "nbs_data": {
-    "file_name": "/opt/ml/input/data/train/"
-  },
   "train_data": {
-    "file_name": "/opt/ml/input/data/train1/"
+    "file_name": "/opt/ml/input/data/train/"
   },
   "identity": {
     "file_name": "identity.json"
