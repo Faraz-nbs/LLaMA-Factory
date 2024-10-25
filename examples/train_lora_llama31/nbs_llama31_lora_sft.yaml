@@ -9,7 +9,7 @@ lora_target: all
 
 ### dataset
 # dataset: nbs_data
-# template: llama3
+template: llama3
 # cutoff_len: 1024
 # max_samples: 1000
 # overwrite_cache: true
