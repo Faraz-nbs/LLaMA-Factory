@@ -1,6 +1,6 @@
 {
   "nbs_data": {
-    "file_name": "/opt/ml/input/data/train/"
+    "file_name": "/opt/ml/model/"
   },
   "tokenized_data": {
     "file_name": "/opt/ml/model/"
