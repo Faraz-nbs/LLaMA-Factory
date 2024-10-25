@@ -1,5 +1,5 @@
 {
-  "train_data": {
+  "nbs_data": {
     "file_name": "/opt/ml/input/data/train/"
   },
   "identity": {
