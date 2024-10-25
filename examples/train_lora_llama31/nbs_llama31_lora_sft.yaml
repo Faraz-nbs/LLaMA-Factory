@@ -8,12 +8,15 @@ finetuning_type: lora
 lora_target: all
 
 ### dataset
-dataset: nbs_data
-template: llama3
-cutoff_len: 1024
-max_samples: 1000
-overwrite_cache: true
-preprocessing_num_workers: 16
+# dataset: nbs_data
+# template: llama3
+# cutoff_len: 1024
+# max_samples: 1000
+# overwrite_cache: true
+# preprocessing_num_workers: 16
+
+tokenized_path: /opt/ml/model
+
 
 ### output
 output_dir: /opt/ml/model
@@ -33,7 +36,7 @@ bf16: true
 ddp_timeout: 180000000
 
 ### eval
-val_size: 0.1
+# val_size: 0.1
 per_device_eval_batch_size: 1
 eval_strategy: steps
 eval_steps: 500
